@@ -1,0 +1,23 @@
+# Virtual environments & IDE files
+.venv/
+venv/
+.idea/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Sensitive credentials & wallets (CRITICAL)
+wallet/
+*wallet*
+*.pem
+*.key
+*.p12
+*.sso
+*.jks
+.env
+
+# Large raw datasets & compressed binaries
+powerbi/*.csv
+*.csv
+data/analysis_sample.parquet
+data/full_survey_compressed.parquet
